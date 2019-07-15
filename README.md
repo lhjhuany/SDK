@@ -8,7 +8,28 @@
 ### [单行写（向表内写入一行数据）](SDK/PutRow.py)
   PutRow(Client, TableName, Item, ReturnValues)
   
-  参数说明：
+  **参数说明：**
+  
+  Client：TenAwsTSSvc实例
+  
+  TableName：表名称
+  
+  Item：数据项（KV键值对）
+  
+  例如：
+  
+  Item = {
+            "属性名": {
+                    "类型":"2"
+            },
+            "属性名": {
+                "类型": "1"
+            }
+        }
+  
+   
+  
+  TableName：
 - [单行读（从表内读出一样数据）](http://www.baidu.com)
 - [更新单行（更新某一行的部分字段）](http://www.baidu.com)
 - [删除某行（从表内删除某一行数据）](http://www.baidu.com)
