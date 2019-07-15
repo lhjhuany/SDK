@@ -7,6 +7,7 @@
 # 示例代码
 ### [单行写（向表内写入一行数据）](SDK/PutRow.py)
   PutRow(Client, TableName, Item, ReturnValues)
+  参数说明：
 - [单行读（从表内读出一样数据）](http://www.baidu.com)
 - [更新单行（更新某一行的部分字段）](http://www.baidu.com)
 - [删除某行（从表内删除某一行数据）](http://www.baidu.com)
